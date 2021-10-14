@@ -1,5 +1,8 @@
 import React from 'react';
 import Head from 'next/head';
+import style from './style.module.scss';
+
+const {} = style;
 const Layout = (props) => {
   return (
     <div>

@@ -1,5 +1,7 @@
 import React from 'react';
+// import style from './style.module.scss';
 import { Container, Row, Col } from "reactstrap";
+
 const About = () => {
   return (
     <section className="section bg-light" id="about">

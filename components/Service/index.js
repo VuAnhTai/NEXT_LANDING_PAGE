@@ -1,5 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from "reactstrap";
+import style from './style.module.scss';
+
+const {} = style;
 const Service = () => {
   const services = [
     { title: "Lorem Ipsum", desc: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s" },

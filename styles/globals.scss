@@ -1,3 +1,7 @@
+$primary-light: #ff9068;
+$primary: #ff4b1f;
+$text-color: #000000;
+
 html,
 body {
   padding: 0;
@@ -20,3 +24,32 @@ a {
   padding-bottom: 100px;
   position: relative;
 }
+
+.nav-link {
+  color: $text-color;
+  &:hover {
+    color: $primary;
+  }
+}
+
+
+.btn-grad {background-image: linear-gradient(to right, $primary-light 0%, $primary  51%, $primary-light  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 10px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   border-radius: 10px;
+   display: block;
+   border: none;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+   border: none;
+ }

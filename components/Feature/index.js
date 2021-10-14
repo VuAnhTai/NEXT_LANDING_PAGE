@@ -1,5 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from "reactstrap";
+import style from './style.module.scss';
+
+const {} = style;
 const FeatureBox = (props) => {
   return (
     <>
